@@ -6,6 +6,7 @@ import cn from "classnames";
 import { ThemeSwitcher } from "./_components/theme-switcher";
 
 import "./globals.css";
+import "./_components/dark-mode-override.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
   title: `Jared Currie`,
   description: `My name is Jared Currie and this is my blog.`,
   openGraph: {
-    images: ['/images/og-image.png'],
+    images: [HOME_OG_IMAGE_URL],
   },
 };
 
@@ -58,7 +59,7 @@ export default function RootLayout({
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       </head>
       <body
-        className={cn(inter.className, "dark:bg-slate-900 dark:text-slate-400")}
+        className={cn(inter.className, "dark:bg-black dark:text-slate-400")}
       >
         <ThemeSwitcher />
         <div className="min-h-screen">{children}</div>
