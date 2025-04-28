@@ -6,7 +6,6 @@ import cn from "classnames";
 import { ThemeSwitcher } from "./_components/theme-switcher";
 
 import "./globals.css";
-import "./_components/dark-mode-override.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
