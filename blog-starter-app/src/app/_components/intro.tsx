@@ -2,6 +2,7 @@ import Link from "next/link";
 import GitHubIcon from "./_icons/github";
 import MailIcon from "./_icons/mail";
 import LinkedInIcon from "./_icons/linkedin";
+import { RSSIcon } from "./_icons/rss";
 
 export function Intro() {
   return (
@@ -16,8 +17,11 @@ export function Intro() {
         <Link href="mailto:jccurrie0@gmail.com" className="mr-4">
           <MailIcon size={32} />
         </Link>
-        <Link href="https://www.linkedin.com/in/currieja/">
+        <Link href="https://www.linkedin.com/in/currieja/" className="mr-4">
           <LinkedInIcon size={32} />
+        </Link>
+        <Link href="/feed.xml">
+          <RSSIcon size={32} />
         </Link>
       </div>
     </section>
