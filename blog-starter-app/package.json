@@ -8,6 +8,7 @@
   "dependencies": {
     "classnames": "^2.5.1",
     "date-fns": "^3.6.0",
+    "feed": "^4.2.2",
     "gray-matter": "^4.0.3",
     "next": "15.0.2",
     "react": "19.0.0-rc-02c0e824-20241028",
