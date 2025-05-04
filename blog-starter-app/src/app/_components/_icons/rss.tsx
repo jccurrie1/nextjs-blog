@@ -1,6 +1,4 @@
-import { IconProps } from "./icon-props";
-
-export function RSSIcon({ size = 24 }: IconProps) {
+export function RSSIcon({ size = 24 }) {
   return (
     <svg
       width={size}
