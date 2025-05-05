@@ -12,8 +12,8 @@ export async function GET() {
   };
 
   const feed = new Feed({
-    title: "Next.js Blog",
-    description: "A blog built with Next.js",
+    title: "Jared Currie",
+    description: "My personal blog.",
     id: siteURL,
     link: siteURL,
     language: "en",
