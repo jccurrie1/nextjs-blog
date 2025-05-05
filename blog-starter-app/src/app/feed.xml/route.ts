@@ -7,7 +7,7 @@ export async function GET() {
   const date = new Date();
   const author = {
     name: "Jared Currie",
-    email: "jared@example.com",
+    email: "jccurrie0@gmail.com",
     link: siteURL,
   };
 
