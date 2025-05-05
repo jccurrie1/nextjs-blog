@@ -1,7 +1,7 @@
 ---
 title: "Hello World!"
 excerpt: This is my first time ever creating a blog. I am not exactly sure why I am doing this but look forward to finding out along the way.
-coverImage: "/assets/blog/hello-world/cover.jpg"
+coverImage: "/assets/blog/hello-world/coffee.jpg"
 date: "2025-04-06T23:44:15.020Z"
 author:
   name: Jared Currie

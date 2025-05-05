@@ -31,7 +31,7 @@ const Alert = ({ preview }: Props) => {
             <>
               The source code for this blog is{" "}
               <a
-                href={`https://github.com/vercel/next.js/tree/canary/examples/${EXAMPLE_PATH}`}
+                href={`https://github.com/jccurrie1/nextjs-blog/tree/main/blog-starter-app`}
                 className="underline hover:text-blue-600 duration-200 transition-colors"
               >
                 available on GitHub
